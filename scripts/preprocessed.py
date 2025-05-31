@@ -10,7 +10,7 @@ warnings.filterwarnings('ignore')
 
 
 class MarsSeismicDataProcessor:
-    def __init__(self, raw_data_path="data/raw/", processed_data_path="data/processed/"):
+    def __init__(self, raw_data_path="/data/raw/", processed_data_path="/data/processed/"):
         self.raw_data_path = raw_data_path
         self.processed_data_path = processed_data_path
         self.db_path = os.path.join(processed_data_path, "mars_seismic.db")
