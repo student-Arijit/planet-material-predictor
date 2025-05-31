@@ -1,4 +1,19 @@
 import streamlit as st
+
+# Page configuration - MUST be the first Streamlit command
+st.set_page_config(
+    page_title="Mars Material Predictor",
+    page_icon="🚀",
+    layout="wide",
+    initial_sidebar_state="expanded",
+    menu_items={
+        'Get Help': 'https://github.com/yourusername/planet-material-predictor',
+        'Report a bug': "https://github.com/yourusername/planet-material-predictor/issues",
+        'About': "# Mars Material Predictor\nAnalyze Mars geological data and predict material components!"
+    }
+)
+
+# Now import other modules
 import pandas as pd
 import numpy as np
 import plotly.express as px
@@ -17,26 +32,6 @@ warnings.filterwarnings('ignore')
 # Add the project root to Python path
 project_root = Path(__file__).parent.parent
 sys.path.append(str(project_root))
-
-# Import custom components (we'll create these next)
-try:
-    from app.components.custom_widgets import load_data, create_sidebar, display_stats_summary
-    from app.pages import home, prediction
-except ImportError:
-    st.error("Some modules are not yet created. Please ensure all files are in place.")
-
-# Page configuration
-st.set_page_config(
-    page_title="Mars Material Predictor",
-    page_icon="🚀",
-    layout="wide",
-    initial_sidebar_state="expanded",
-    menu_items={
-        'Get Help': 'https://github.com/yourusername/planet-material-predictor',
-        'Report a bug': "https://github.com/yourusername/planet-material-predictor/issues",
-        'About': "# Mars Material Predictor\nAnalyze Mars geological data and predict material components!"
-    }
-)
 
 # Custom CSS for better styling
 st.markdown("""
