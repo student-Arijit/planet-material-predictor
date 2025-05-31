@@ -1,0 +1,8 @@
+README.md
+setup.py
+planet_material_predictor.egg-info/PKG-INFO
+planet_material_predictor.egg-info/SOURCES.txt
+planet_material_predictor.egg-info/dependency_links.txt
+planet_material_predictor.egg-info/entry_points.txt
+planet_material_predictor.egg-info/requires.txt
+planet_material_predictor.egg-info/top_level.txt

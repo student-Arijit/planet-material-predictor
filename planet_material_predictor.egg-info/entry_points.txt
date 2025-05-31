@@ -1,0 +1,2 @@
+[console_scripts]
+mars-predictor = app.main:main

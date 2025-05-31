@@ -1,0 +1,52 @@
+Metadata-Version: 2.4
+Name: planet-material-predictor
+Version: 1.0.0
+Summary: A Streamlit web application for Mars material component statistics and prediction
+Home-page: https://github.com/yourusername/planet-material-predictor
+Author: Arijit Chowdhury
+Author-email: your.email@example.com
+Project-URL: Bug Reports, https://github.com/yourusername/planet-material-predictor/issues
+Project-URL: Source, https://github.com/yourusername/planet-material-predictor
+Project-URL: Documentation, https://github.com/yourusername/planet-material-predictor/wiki
+Keywords: mars,material,prediction,streamlit,seismic,geology,planetary science
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: streamlit
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: plotly
+Requires-Dist: seaborn
+Requires-Dist: matplotlib
+Requires-Dist: scikit-learn
+Requires-Dist: openpyxl
+Requires-Dist: xlrd
+Requires-Dist: scipy
+Requires-Dist: altair
+Requires-Dist: streamlit-option-menu
+Requires-Dist: pillow
+Requires-Dist: duckdb
+Dynamic: author
+Dynamic: author-email
+Dynamic: classifier
+Dynamic: description
+Dynamic: description-content-type
+Dynamic: home-page
+Dynamic: keywords
+Dynamic: project-url
+Dynamic: requires-dist
+Dynamic: requires-python
+Dynamic: summary
+
+# planet-material-predictor
+A Smart Material Prediction System for Planetary Exploration
